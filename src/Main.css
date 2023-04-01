@@ -4,18 +4,29 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 5rem;
+  gap: 1rem;
 }
 .buttonDiv {
   display: flex;
   gap: 1rem;
+  margin-bottom: 1rem;
 }
-.countP {
-  font-size: 8rem;
-}
+
 button {
   padding: 0.5rem;
   min-width: 6rem;
   font-weight: 600;
   border-radius: 5px;
+}
+
+.circle {
+  padding: 4rem;
+  font-size: 8rem;
+  border-radius: 45%;
+}
+.odd {
+  background-color: rgba(128, 128, 128, 0.247);
+}
+.even {
+  background-color: rgba(127, 255, 212, 0.322);
 }
