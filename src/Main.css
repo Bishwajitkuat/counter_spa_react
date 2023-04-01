@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 1rem;
+  gap: 3rem;
 }
 .buttonDiv {
   display: flex;
@@ -20,13 +20,21 @@ button {
 }
 
 .circle {
-  padding: 4rem;
-  font-size: 8rem;
-  border-radius: 45%;
+  padding: 6rem;
+  font-size: 9rem;
+  border-radius: 50%;
 }
 .odd {
-  background-color: rgba(128, 128, 128, 0.247);
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0.8),
+    rgba(255, 255, 0, 0.8)
+  );
 }
 .even {
-  background-color: rgba(127, 255, 212, 0.322);
+  background-image: linear-gradient(
+    to left,
+    rgba(255, 0, 0, 0.8),
+    rgba(255, 255, 0, 0.8)
+  );
 }
