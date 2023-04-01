@@ -1,8 +1,9 @@
 import React from "react";
+import "./Button.css";
 
 const Button = (props) => {
   return (
-    <button id={props.id} onClick={props.hendelar}>
+    <button className="countBtn" id={props.id} onClick={props.hendelar}>
       {props.text}
     </button>
   );
